@@ -252,7 +252,7 @@ ASSET_MANAGER.downloadAll(function () {
     gameEngine.addEntity(new Background(gameEngine, ASSET_MANAGER.getAsset("./img/PlatformBackground.jpg")));
 
     var startX = 45;
-    for (var i = 0; i < 1; i++) {
+    for (var i = 0; i < 19; i++) {
         circle = new Circle(gameEngine, startX, 60, 60, 40, startX, 
                                 760, false, false, 0.2, 0.2, true, 30, 30, false);
         startX += 40;
